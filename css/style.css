@@ -3,7 +3,12 @@
 }
 
 /*header*/
-
+body{
+	background-image: url(../img/back.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #b3a26a;
+}
 header{
 	height: 36px;
 	background-image: url(../img/patern.png);
@@ -99,12 +104,10 @@ ul p{
 /*body*/
 
 .body{
-	height: 1100px;
-	background-image: url(../img/back.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
+
 	padding-top: 213px;
 	box-sizing: border-box;
+	padding-bottom: 205px;
 }
 .container{
 	width: 560px;
