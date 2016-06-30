@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url('../font/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../font/helveticaneuecyr-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
-	font-family: "Tahoma", sans-serif;
+	font-family: "helvetica", sans-serif;
 }
 
 /*header*/
@@ -32,7 +39,7 @@ ul a{
 	display: inline-block;
 	padding: 10px 10px 12px 13px;
 	font-size: 14px;
-	font-family: "Tahoma";
+	font-family: "helvetica", sans-serif;
 	color: rgb(96, 181, 237);
 	text-decoration: none;
 }
@@ -54,7 +61,7 @@ ul p{
 }
 .link a{
   font-size: 14px;
-  font-family: "Tahoma";
+  font-family: "helvetica", sans-serif;
   color: rgb(254, 254, 254);
 }
 
@@ -122,7 +129,7 @@ ul p{
 	padding: 20px;
 	margin-bottom: 2px;
 	font-size: 24px;
-	font-family: "Tahoma";
+	font-family: "helvetica", sans-serif;
 	color: rgb(255, 255, 255);
 	text-align: center;
 }
@@ -155,7 +162,7 @@ ul p{
 	margin-bottom: 20px;
 	display: inline-block;
 	font-size: 14px;
-	font-family: "Tahoma";
+	font-family: "helvetica", sans-serif;
 	color: rgb(153, 153, 153);
 }
 form,
@@ -174,7 +181,7 @@ input[type="password"]{
 	border:none;
 	border-bottom: 1px solid #484847;
 	font-size: 14px;
-	font-family: "Tahoma";
+	font-family: "helvetica", sans-serif;
 	box-sizing: border-box;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -214,7 +221,7 @@ input[type="password"]:focus{
 }
 label{
 	font-size: 14px;
-	font-family: "Tahoma";
+	font-family: "helvetica", sans-serif;
 	color: rgb(204, 204, 204);
 }
 input[type="submit"]{
@@ -233,7 +240,7 @@ input[type="submit"]{
 	background: -ms-linear-gradient(90deg, rgb(64, 143, 194) 19%, rgb(46, 122, 196) 100%);
 	background: linear-gradient(180deg, rgb(64, 143, 194) 19%, rgb(46, 122, 196) 100%);
 	font-size: 14px;
-	font-family: "Tahoma";
+	font-family: "helvetica", sans-serif;
 	color: rgb(255, 255, 255);
 }
 .privacy{
@@ -241,7 +248,7 @@ input[type="submit"]{
 }
 .privacy p{
 	font-size: 11px;
-	font-family: "Tahoma";
+	font-family: "helvetica", sans-serif;
 	color: rgb(204, 204, 204);
 	line-height: 1.455;
 	text-align: center;
