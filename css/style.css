@@ -80,7 +80,7 @@ ul p{
 	content: '';
 	background-image: url(../img/flag.png);
 }
-.underline{
+.link a:hover .underline{
 	text-decoration: underline;
 }
 .link a:hover{
